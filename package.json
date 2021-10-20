@@ -10,6 +10,17 @@
         "Themes"
     ],
     "contributes": {
+        "colors": [
+            {
+                "id": "stardust.keyword",
+                "description": "[#ff3c49] Stardust theme keyword color.",
+                "defaults": {
+                    "dark": "#ff3c49",
+                    "light": "#ff3c49",
+                    "highContrast": "#ff3c49"
+                }
+            }
+        ],
         "themes": [
             {
                 "label": "Stardust Dark Prototype",
