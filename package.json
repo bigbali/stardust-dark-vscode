@@ -2,7 +2,7 @@
     "name": "stardust-dark-prototype",
     "displayName": "Stardust Dark Prototype",
     "description": "A dark theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.61.0"
     },
@@ -10,23 +10,19 @@
         "Themes"
     ],
     "contributes": {
-        "colors": [
-            {
-                "id": "stardust.keyword",
-                "description": "[#ff3c49] Stardust theme keyword color.",
-                "defaults": {
-                    "dark": "#ff3c49",
-                    "light": "#ff3c49",
-                    "highContrast": "#ff3c49"
-                }
+        "colors": [{
+            "id": "stardust.keyword",
+            "description": "[#ff3c49] Stardust theme keyword color.",
+            "defaults": {
+                "dark": "#ff3c49",
+                "light": "#ff3c49",
+                "highContrast": "#ff3c49"
             }
-        ],
-        "themes": [
-            {
-                "label": "Stardust Dark Prototype",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Stardust Dark Prototype-color-theme.json"
-            }
-        ]
+        }],
+        "themes": [{
+            "label": "Stardust Dark Prototype",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Stardust Dark Prototype-color-theme.json"
+        }]
     }
 }

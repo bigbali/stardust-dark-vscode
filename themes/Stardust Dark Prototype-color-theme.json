@@ -41,7 +41,6 @@
         "panel.background": "#0c0e16",
         "panel.border": "#01040c",
         "minimap.background": "#131924",
-        "scrollbarSlider.background": "#3f4c64",
         "sideBar.background": "#131924",
         "sideBar.foreground": "#f5f5f5",
         "sideBar.border": "#01040c",
@@ -52,7 +51,11 @@
         "statusBar.background": "#2b2b2b",
         "dropdown.background": "#303030",
         "badge.background": "#505050",
-        "tree.indentGuidesStroke": "#b6c0d4"
+        "tree.indentGuidesStroke": "#b6c0d4",
+        "scrollbarSlider.background": "#3f4c64",
+        "scrollbarSlider.hoverBackground": "#5d6d8a",
+        "scrollbarSlider.activeBackground": "#5d6d8a",
+        "scrollbar.shadow": "#8e93c08f"
     },
     "tokenColors": [
         {
@@ -659,11 +662,13 @@
                 "keyword.operator",
                 "keyword.control",
                 "keyword.other",
+                "keyword.type.graphql",
                 "storage",
                 "storage.type",
                 "storage.modifier",
-                "keyword.type.graphql",
-                "entity.name.tag"
+                "entity.name.tag",
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end"
             ],
             "settings": {
                 "foreground": "#ff3c49"
@@ -890,18 +895,23 @@
             }
         },
         {
+            "name": "Strings",
             "scope": [
+                "string.template",
                 "string.quoted.single",
                 "string.quoted.double",
                 "string.quoted.other",
                 "punctuation.definition.string.begin",
-                "punctuation.definition.string.end"
+                "punctuation.definition.string.end",
+                "punctuation.definition.string.template.begin",
+                "punctuation.definition.string.template.end",
             ],
             "settings": {
                 "foreground": "#ffc368",
             }
         },
         {
+            "name": "Python multiline triple quote string",
             "scope": [
                 "string.quoted.triple",
                 "string.quoted.docstring.multi.python",
