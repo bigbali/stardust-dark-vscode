@@ -48,17 +48,17 @@
         "sideBarSectionHeader.background": "#0e121a",
         "input.background": "#303030",
         "input.border": "#222222",
-        "statusBar.background": "#2b2b2b",
         "dropdown.background": "#303030",
         "badge.background": "#505050",
         "tree.indentGuidesStroke": "#b6c0d4",
         "scrollbarSlider.background": "#3f4c64",
         "scrollbarSlider.hoverBackground": "#5d6d8a",
         "scrollbarSlider.activeBackground": "#5d6d8a",
-        "scrollbar.shadow": "#8e93c08f"
+        "scrollbar.shadow": "#000000",
+        "statusBar.background": "#232c3d",
+        "statusBar.foreground": "#f5f5f5"
     },
-    "tokenColors": [
-        {
+    "tokenColors": [{
             "name": "Comment",
             "scope": [
                 "comment",
