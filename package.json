@@ -1,7 +1,8 @@
 {
     "name": "stardust-dark",
-    "displayName": "Stardust Dark Theme",
-    "description": "A modern dark theme",
+    "displayName": "Stardust Dark",
+    "description": "A modern dark theme for VS Code",
+    "publisher": "Starcrusher",
     "version": "0.0.4",
     "repository": "https://github.com/bigbali/stardust-dark-vscode",
     "engines": {
