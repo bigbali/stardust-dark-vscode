@@ -5,7 +5,7 @@
     "icon": "media/png/icon.png",
     "license": "MIT",
     "publisher": "Starcrusher",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "repository": "https://github.com/bigbali/stardust-dark-vscode",
     "engines": {
         "vscode": "^1.61.0"
@@ -13,11 +13,19 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "theme",
+        "dark",
+        "star",
+        "dust"
+    ],
     "contributes": {
-        "themes": [{
-            "label": "Stardust Dark",
-            "uiTheme": "vs-dark",
-            "path": "./themes/stardust-dark-color-theme.json"
-        }]
+        "themes": [
+            {
+                "label": "Stardust Dark",
+                "uiTheme": "vs-dark",
+                "path": "./theme/stardust-dark-color-theme.json"
+            }
+        ]
     }
 }
